@@ -1,1 +1,18 @@
 /* Place CSS styles here */
+div{
+    width: 100px;
+    background-color: black;
+    animation-name: shrek;
+    animation-duration: 4s;
+    animation-direction: reverse;
+    
+}
+
+body{
+    background-color: rgb(208, 143, 243);
+}
+
+@keyframes shrek {
+    from {background-color: aqua;}
+    to{background-color: brown;}
+}

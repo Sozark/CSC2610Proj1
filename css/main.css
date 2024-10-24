@@ -7,6 +7,14 @@ div{
     animation-direction: reverse;
     
 }
+a:link, a:visited { 
+    text-align: center; 
+    color: #ffa5d4;   
+}
+
+a:hover{
+    color: #ee097f
+}
 
 body{
     background-color: rgb(208, 143, 243);

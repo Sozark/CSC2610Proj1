@@ -1,12 +1,5 @@
 /* Place CSS styles here */
-div{
-    width: 100px;
-    background-color: black;
-    animation-name: shrek;
-    animation-duration: 4s;
-    animation-direction: reverse;
-    
-}
+
 a:link, a:visited { 
     text-align: center; 
     color: #ffa5d4;   
@@ -22,8 +15,40 @@ a:active {
 body{
     background-color: rgb(208, 143, 243);
 }
+@keyframes rotate
+100% {
+    transform: rotate(360deg);
+}
+.Invader-Zim-Characters img{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Zim{
+
+}
+
+.Gir{
+
+}
+
+.Gaz{
+
+}
+
+.Dibb{
+
+}
 
 @keyframes shrek {
     from {background-color: aqua;}
     to{background-color: brown;}
+}
+
+@keyframes rotate
+100% {
+    transform: rotate(360deg);
 }

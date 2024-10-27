@@ -83,7 +83,7 @@ p{
   -webkit-animation: animation4 3s linear infinite;
   animation-delay: 1s;
 }
-
+/* This is to animate Shrek*/
 @keyframes animate {
   0% {
       filter: hue-rotate(0deg);
@@ -93,7 +93,7 @@ p{
       filter: hue-rotate(360deg);
   }
   }
-
+/* These are to animate the green loading bars on the top of the page*/
 @keyframes animation1{
   0% {
     transform: translateY(100%);
@@ -137,7 +137,7 @@ p{
 
 a:link, a:visited { 
     text-align: center; 
-    color: #ffa5d4;   
+    color: #ffa5fd;   
 }
 
 a:hover{
@@ -160,9 +160,6 @@ body{
     width: 60px;
 }
 
-
-
-
 .Invader-Zim-Characters img{
     width: 40px;
     display: flex;
@@ -171,58 +168,3 @@ body{
     margin-bottom: 50px;
 }
  
-  /* Clear floats after the columns 
-  .column {
-    float: left;
-    width: 25%;
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-*/
-
-
-.Zim{
-    
-}
-
-.Gir{
-
-}
-
-.Gaz{
-
-}
-
-.Dibb{
-
-}
-/*
-@media (max-width: 999px) {
-  .main-nav {
-    display: none;
-  }
-}
-
-.mobile-main-nav {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  background-color: #d5ffb1;
-  position: absolute;
-  top: 132px;
-  left: 0;
-  right: 0;
-}
-
-.mobile-main-nav a {
-  padding: 8px;
-}
-
-@media (min-width: 1000px) {
-  .mobile-nav-wrapper {
-    display: none;
-  }
-}

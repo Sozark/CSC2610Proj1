@@ -4,22 +4,28 @@ body {
     
 }
 h1{
-  color: antiquewhite;
+  color: #3bff33;
 }
 h2 {
-  color: antiquewhite;
+  color: #3bff33;
 }
 h3{
-  color: antiquewhite;
+  color: #3bff33;
 }
 
 li{
-  color: antiquewhite;
+  color: #3bff33;
 }
 
 p{
-  color: antiquewhite
+  color: #3bff33;
 }
+
+.button{
+  background-color: #000000;
+  color:#3bff33
+}
+
 
 .btn_animation{
     font-weight: 700;
@@ -137,7 +143,7 @@ p{
 
 a:link, a:visited { 
     text-align: center; 
-    color: #ffa5fd;   
+    color: #ff64ea;   
 }
 
 a:hover{

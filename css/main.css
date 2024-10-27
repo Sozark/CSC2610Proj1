@@ -21,11 +21,11 @@ p{
   color: #3bff33;
 }
 
+
 .button{
   background-color: #000000;
   color:#3bff33
 }
-
 
 .btn_animation{
     font-weight: 700;
@@ -66,7 +66,6 @@ p{
     
 }
 
-
 .btn_animation span:nth-child(3){
   position: absolute;
   bottom: 0rem; 
@@ -89,6 +88,9 @@ p{
   -webkit-animation: animation4 3s linear infinite;
   animation-delay: 1s;
 }
+
+
+
 /* This is to animate Shrek*/
 @keyframes animate {
   0% {
@@ -141,6 +143,7 @@ p{
   }
   
 
+
 a:link, a:visited { 
     text-align: center; 
     color: #ff64ea;   
@@ -156,6 +159,9 @@ a:active {
 body{
     background-color: rgb(6, 6, 6);
 }
+
+
+
 .Shrek-wrapper{
     width: 100px;
 }
@@ -165,7 +171,7 @@ body{
     align-items: flex-end;
     width: 60px;
 }
-
+/*
 .Invader-Zim-Characters img{
     width: 40px;
     display: flex;
@@ -173,4 +179,4 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
 }
- 
+*/
